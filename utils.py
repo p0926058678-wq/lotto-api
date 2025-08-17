@@ -1,6 +1,1 @@
-
-def generate_predictions():
-    return {"result": "dummy prediction"}
-
-def computer_pick_all():
-    return {"picks": ["123", "456", "789"]}
+# 請將原 utils.py 程式碼貼上這裡

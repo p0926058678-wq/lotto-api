@@ -1,4 +1,4 @@
 flask
+beautifulsoup4
 requests
-bs4
-lxml
+scikit-learn
