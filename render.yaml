@@ -2,6 +2,11 @@ services:
   - type: web
     name: lotto-api
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    plan: free
+    region: oregon
+    buildCommand: pip install -U pip && pip install -r requirements.txt
+    startCommand: gunicorn app:app
     autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
