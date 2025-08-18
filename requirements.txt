@@ -4,3 +4,4 @@ requests
 lxml
 beautifulsoup4
 scikit-learn
+pandas
