@@ -13,4 +13,3 @@ def computer_pick_all():
         pick = [random.randint(0, 9) for _ in range(3)]
         picks.append(pick)
     return {"computer_picks": picks}
-# 請將原 utils.py 程式碼貼上這裡
